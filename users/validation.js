@@ -5,7 +5,6 @@ function registerValidation(requestBody) {
     name: Joi.string().min(2).max(100).required(),
     email: Joi.string().email().required(),
     password: Joi.string().regex(/^[a-zA-Z0-9]{3,30}$/).required(),
-    isCompany: Joi.boolean().required(),
   };
 
   return Joi.validate(requestBody, userSchema);

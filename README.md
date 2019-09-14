@@ -13,7 +13,7 @@
    
 1. Set the path to your MongoDB server in **`config/default.json`** (**MongoDB is required** to be installed on your machine)
 
-1. Run **`npm dev or npm start`** to start the project (For `npm dev` **nodemon is required**)
+1. Run **`npm run dev or npm start`** to start the project (For `npm run dev` **nodemon is required**)
 
 ---
 
